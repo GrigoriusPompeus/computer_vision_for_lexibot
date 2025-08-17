@@ -1,0 +1,45 @@
+# LexiBot Computer Vision System Dependencies
+# Core computer vision and deep learning libraries
+ultralytics>=8.0.0          # YOLOv11 implementation
+opencv-python>=4.8.0        # Computer vision library
+numpy>=1.21.0               # Numerical computing
+torch>=2.0.0                # PyTorch (automatically installed with ultralytics)
+torchvision>=0.15.0         # Computer vision for PyTorch
+
+# MQTT communication for robot integration
+paho-mqtt>=1.6.0            # MQTT client library
+
+# Image processing and utilities
+Pillow>=9.0.0               # Image processing library
+matplotlib>=3.5.0           # Plotting and visualization
+seaborn>=0.11.0             # Statistical visualization
+
+# Data handling and analysis
+pandas>=1.5.0               # Data manipulation and analysis
+PyYAML>=6.0                 # YAML configuration files
+
+# GUI and interface (optional)
+tkinter                     # GUI toolkit (usually included with Python)
+
+# Development and testing tools
+pytest>=7.0.0               # Testing framework
+black>=22.0.0               # Code formatting
+flake8>=5.0.0               # Code linting
+
+# Jupyter notebook support (for development)
+jupyter>=1.0.0              # Jupyter notebook
+ipywidgets>=8.0.0           # Interactive widgets
+
+# System and logging
+psutil>=5.9.0               # System and process utilities
+colorlog>=6.7.0             # Colored logging output
+
+# Optional: For advanced features
+# scipy>=1.9.0              # Scientific computing
+# scikit-learn>=1.1.0       # Machine learning utilities
+# requests>=2.28.0          # HTTP requests (for downloading models/data)
+
+# Platform-specific notes:
+# - Windows users may need: pip install pywin32
+# - Linux users ensure: sudo apt-get install python3-tk
+# - macOS users with M1/M2: use conda-forge for some packages

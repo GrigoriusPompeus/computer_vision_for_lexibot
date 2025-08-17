@@ -1,0 +1,24 @@
+# LexiBot Artwork Detection Dataset Configuration
+# Dataset paths (relative to this file)
+train: ../dataset/train
+val: ../dataset/valid
+test: ../dataset/test
+
+# Number of classes
+nc: 6
+
+# Class names
+names:
+  0: libre        # Liberty Leading the People
+  1: monalisa     # Mona Lisa
+  2: background   # Background/other
+  3: skrik        # The Scream
+  4: starrynight  # The Starry Night
+  5: sunflower    # Sunflowers
+
+# Optional: Additional dataset info
+dataset_name: "LexiBot Artwork Detection"
+description: "Custom dataset for detecting famous artworks in museum/gallery settings"
+version: "1.0"
+roboflow_url: "https://universe.roboflow.com/testing-images/paintings-mk265"
+license: "CC BY 4.0"
