@@ -3,11 +3,17 @@
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 ![YOLOv11](https://img.shields.io/badge/YOLOv11-Computer%20Vision-green.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-red.svg)
-![License](https://img.shields.io/badge/license-MIT-bl## 📄 License
+![License](https://img.shields.io/badge/license-MIT-blue.s## 🙏 Acknowledgments
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **DECO3801 Team**: Special thanks to team members for collaborative development
+- **Dataset**: Artwork images provided via Roboflow (CC BY 4.0 License)
+- **YOLOv11**: Ultralytics team for the excellent object detection framework
+- **OpenCV Community**: For computer vision tools and documentation
+- **Course Instructors**: DECO3801 teaching team for guidance and support
 
-## 🙏 Acknowledgments sophisticated computer vision system designed for LexiBot, an interactive tour guide robot that detects and identifies famous artworks in real-time. This computer vision system was successfully integrated into **LexiBot's live art detection capabilities**, enabling real-time artwork identification during museum tours and educational demonstrations. The system combines YOLOv11 object detection with distance estimation and MQTT communication capabilities.
+---
+
+**🎨 Built with ❤️ for DECO3801 - Design Computing Studio 3**ated computer vision system designed for LexiBot, an interactive tour guide robot that detects and identifies famous artworks in real-time. This computer vision system was successfully integrated into **LexiBot's live art detection capabilities**, enabling real-time artwork identification during museum tours and educational demonstrations. The system combines YOLOv11 object detection with distance estimation and MQTT communication capabilities.
 
 **Developed as part of DECO3801 - Design Computing Studio 3**
 
